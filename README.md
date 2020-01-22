@@ -6,7 +6,7 @@ Secondly, the jaccard is calcualated for the two sketches.
 
 
 ## Usage example:
-
+```
 $ python3 compare.py data/mouse_idh1.txt data/dog_idh1.txt 
 jaccard index: 0.01
 $ python3 compare.py data/mouse_idh1.txt data/zebrafish_idh1.txt 
@@ -15,7 +15,7 @@ $ python3 compare.py data/mouse_idh1.txt data/guppy_idh1.txt
 jaccard index: 0.0
 $ python3 compare.py data/mouse_idh1.txt data/mouse_idh1.txt
 jaccard index: 1.0
-
+```
 
 
 
